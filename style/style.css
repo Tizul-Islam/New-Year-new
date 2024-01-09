@@ -1,0 +1,549 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+main {
+
+    display: block;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+
+
+
+/* Main div position relative
+> Create image div then import img here not into css use z-index :1 and position absolute for text center position absolute, z-index 2, top 50% and left 50%, in css do not use background-image */
+
+
+
+.header-section {
+    background: no-repeat;
+    background-image: url(/resources/Banner\ Image.png);
+    width: 100%;
+    height: 650px;
+    background-position: 50%;
+
+}
+
+.banner h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+}
+
+.banner {
+    text-align: center;
+    color: #fff;
+    padding: 125px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+
+.happy-new-discount {
+
+    text-align: center;
+
+
+}
+
+.happy-new-discount h3 {
+
+    font-size: 16px;
+    color: red;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+.happy-new-discount h4 {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.happy-new-discount img {
+
+    width: 850px;
+}
+
+.discount {
+
+    color: #F00;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+
+}
+.container {
+    margin-bottom: 100px;
+}
+
+
+.containter {
+
+    background-position: 50%;
+
+}
+
+
+
+.night-party {
+    color: white;
+    padding: 100px;
+}
+
+h3.party-title {
+    width: 654px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+p.party-description {
+    width: 697px;
+    color: rgb(223 217 217 / 80%);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+button.btn-primary {
+    padding: 15px 32px;
+    background: #d9d946;
+    border: none;
+    font-size: 15px;
+    font-family: math;
+}
+
+.holiday-offer {
+    text-align: center;
+    font-family: initial;
+}
+
+h3.what-is-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+span.holiday-offer {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+h5.holiday-discount {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 10px;
+}
+
+
+p.offer-description {
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+
+
+
+
+
+.mid-night-party {
+    width: 100%;
+    height: 700px;
+    background-position: 50%;
+    background: no-repeat;
+    background-image: url(/resources/Vectorrr.png);
+}
+
+.mid-night-party01 {
+
+
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.new-year-date {
+    text-align: center;
+    line-height: 70px;
+    font-size: 32px;
+    font-style: normal;
+    width: 1600px;
+    height: 512px;
+    margin-bottom: 120px;
+    justify-content: center;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+}
+
+.new-year-time {
+    padding: 50px;
+}
+
+.btn-new-year {
+
+    padding: 20px 36px;
+    color: #FFF;
+    background: #F00;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+}
+
+.text-color {
+
+    color: #F00;
+
+
+}
+
+
+
+/* holiday-sale */
+
+
+
+
+.img1 {
+    width: 1600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* new-year-offer */
+
+
+
+.new-year-offer {
+    display: flex;
+    
+    font-style: normal;
+    margin-bottom: 120px;
+    
+    width: 1600px;
+}
+
+
+
+.offer-title {
+    color: #F00;
+    font-size: 40px;
+    
+    margin-top: 100px;
+}
+.new-offer-title {
+    color: #F00;
+    font-size: 20px;
+    padding-top: 60px;
+    font-family: 'Roboto';
+}
+
+
+.new-year-celebration {
+
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+
+}
+
+.new-year-celebration-pic {
+
+    margin: 18px;
+
+
+}
+.offer-description-gift {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0px 745px 0 0;
+
+}
+p.offer-description-offer {
+    width: 420px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0px 144px 0px 1px;
+}
+/*  */
+
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    
+}
+
+.offer-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 22px;
+    margin-top: -20px;
+}
+
+
+.offer-2024 {
+
+    width: 600px;
+    padding-left: 120px;
+
+}
+
+
+
+
+
+
+
+
+
+/* gift product */
+
+.gift-product {
+    margin: auto;
+
+    width: 1600px;
+    height: 1516px;
+}
+
+.product-item img {
+
+    width: 33%;
+
+}
+
+.mail-item {
+    width: 1600px;
+    height: 570px;
+    border-radius: 15px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 80px;
+}
+
+.mail-item-side {
+    text-align: center;
+
+}
+
+.mail-item-side img {
+    margin: 80px 0px 40px;
+}
+
+
+
+.offer-description-mail {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0px 415px 0 415px;
+}
+
+
+
+
+
+.input-mail {
+
+    background: #fffbfb;
+    padding: 15px 100px;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+
+
+
+}
+
+.button-right {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.contact {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.contact input[type="mail"] {
+
+    margin-bottom: 25px;
+    padding: 15px 90px;
+    color: #747474;
+    font-family: Inter;
+    border: none;
+    background: #fff;
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+
+
+/* footer */
+
+footer{
+
+    display: block;
+    max-width: 1700px;
+    margin: 0 auto;
+padding: 100px;
+
+}
+.footer-list {
+    width: 1600px;
+    height: 500px;
+    padding: 149px;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+}
+
+
+.footer-list hr {
+    margin: 30px;
+}
+
+.footer-text{
+
+    display: flex;
+}
+
+.footer-left {
+    width: 581px;
+    margin: 15px;
+}
+
+.footer-right {
+    text-align: right;
+    width: 800px;
+}
+
+.footer-left h2 {
+    padding: 0px 155px 0px 0px;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.footer-right h2 {
+    padding-top: 36px;
+    line-height: 5px;
+    font-size: 25px;
+}
+
+.left {
+    width: 581px;
+    margin: 15px;
+  
+}
+
+
+.right{
+    text-align: right;
+    width: 800px;
+}
+
+
+.footer-buttom{
+
+    display: flex;
+}
+
+.left h2 {
+    padding: 0px 155px 0px 0px;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.right h2 {
+    padding-top: 36px;
+    line-height: 5px;
+    font-size: 25px;
+}
